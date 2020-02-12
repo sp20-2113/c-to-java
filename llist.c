@@ -32,5 +32,13 @@ int main() {
   c->next = NULL; 
   
   LList_print(list);
+  //free memory
+  free(a);
+  free(b)l
+  free(c);
+  free(list);
+  list = NULL; 
+  a = NULL; b = NULL; c = NULL;
+  
   return 0;
 }
