@@ -5,6 +5,7 @@ public class LNode {
   
   public LNode(int data) {
     // fill in
+    this.data = data;
   }
   
   
