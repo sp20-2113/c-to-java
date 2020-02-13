@@ -21,6 +21,14 @@ public class LList {
     LList list = new LList();
     // fill in
     
+    LNode a = new LNode(85);
+    LNode b = new LNode(77);
+    LNode c = new LNode(69);
+    
+    list.head = a;
+    a.next = b;
+    b.next = c;
+    
     list.print_list();
   }
 
